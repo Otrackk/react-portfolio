@@ -162,15 +162,9 @@ a {
 
 /* ===== ABOUT PAGE ===== */
 
-#myname {
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, 2px 2px 1px rgba(255, 255, 255, 0);
-}
 
-#my-skills-bio {
-    background: linear-gradient(to left, #ffffff, #ffffff 100%);
-    background-position: 0 100%;
-    background-size: 100% 2px;
-    background-repeat: repeat-x;
+#my-bio{
+font-size: 20px;
 }
 
 /* ----- ANIMATIONS ----- */
@@ -194,7 +188,7 @@ a {
 }
 
 #i-am {
-    animation: i-am-animation 4s infinite;
+    animation: i-am-animation 3s infinite;
 }
 
 .fade-in-card {

@@ -10,7 +10,7 @@ const SkillNaming = () => {
             var skills = ["Front End Developer", "Penetration Tester", "Chess Master😉", "UI Designer"];
             var counter = Math.round(Math.random()*3);
             setSkill(skills[counter]);
-        }, 4000)
+        }, 3000)
     }
 
     setSkillName();
