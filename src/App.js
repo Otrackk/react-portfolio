@@ -14,7 +14,7 @@ function App() {
       <AnimatePresence>
         <Routes>
 
-          <Route index exact path="/react-portfolio" element={<Home />}></Route>
+          <Route index path="/react-portfolio" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
 
