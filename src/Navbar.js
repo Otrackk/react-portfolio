@@ -19,7 +19,7 @@ const Navbar = () => {
                         {/* <!-- FIRST NAV ITEM --> */}
 
                         <li className="nav-item">
-                            <NavLink to='/'>       <button className="text-decoration-none nav-link point">
+                            <NavLink to='/react-portfolio'>       <button className="text-decoration-none nav-link point">
                                 <p className="hover-eff m-0 p-0 display-2">Home</p>
                             </button></NavLink>
                         </li>
