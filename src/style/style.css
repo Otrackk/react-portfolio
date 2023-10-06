@@ -5,7 +5,7 @@ html {
 }
 
 #main-container {
-    height: 100vh;
+    
 }
 
 /* ===== SCROLLBAR ===== */
@@ -163,28 +163,45 @@ a {
 /* ===== ABOUT PAGE ===== */
 
 
-#my-bio{
-font-size: 20px;
+#my-bio {
+    font-size: 20px;
 }
+
+/* ===== PROJECTS PAGE ===== */
+
+.section-container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 400px;
+    width: 50%;
+}
+
+.section-child {
+    scroll-snap-align: start;
+    height: 400px;
+}
+
+.div-child{
+    height: 400px;
+}
+
 
 /* ----- ANIMATIONS ----- */
 
 @keyframes i-am-animation {
+
     0% {
         opacity: 0;
     }
 
-    30% {
+    50% {
         opacity: 1;
     }
 
-    60%{
+    100% {
         opacity: 0;
     }
 
-    100%{
-        opacity: 0;
-    }
 }
 
 #i-am {

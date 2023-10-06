@@ -20,7 +20,7 @@ const Navbar = () => {
 
                         <li className="nav-item">
                             <NavLink to='/'>       <button className="text-decoration-none nav-link point">
-                                <p className="hover-eff m-0 p-0 display-4">Home</p>
+                                <p className="hover-eff m-0 p-0 display-2">Home</p>
                             </button></NavLink>
                         </li>
 
@@ -28,7 +28,7 @@ const Navbar = () => {
 
                         <li className="nav-item">
                             <NavLink to='/about'>     <button className="text-decoration-none nav-link point">
-                                <p className="hover-eff m-0 p-0 display-4">About</p>
+                                <p className="hover-eff m-0 p-0 display-2">About</p>
                             </button></NavLink>
                         </li>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
 
                         <li className="nav-item">
                             <Link to='/projects'> <button className="text-decoration-none nav-link point">
-                                <p className="hover-eff m-0 p-0 display-4">Projects</p>
+                                <p className="hover-eff m-0 p-0 display-2">Projects</p>
                             </button></Link>
                         </li>
 

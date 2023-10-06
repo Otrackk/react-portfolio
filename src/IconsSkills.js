@@ -13,7 +13,7 @@ import Pine from './assets/pine.svg'
 
 const IconsSkills = () => {
     return (
-        <div className="d-flex gap-2 justify-content-center p-2">
+        <div className="d-flex gap-2 justify-content-center p-2 pt-0 mb-5">
            
             <span className="badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                 <img className=" mx-1" width="24" height="24" src={HTML} alt=""></img>HTML5

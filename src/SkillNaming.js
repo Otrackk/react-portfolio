@@ -1,26 +1,25 @@
-import React, { useState } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 
-const SkillNaming = () => {
+const skillsName = ["Front End Developer", "UI Designer", "Penetration Tester", "Chess Master😉"];
 
-    const [skill, setSkill] = useState('Front End Developer');
+const SkillNaming = ()=> {
+    const [skill, setNewSkill] = useState("");
 
-    function setSkillName() {
-        
-        setInterval(function () {
-            var skills = ["Front End Developer", "Penetration Tester", "Chess Master😉", "UI Designer"];
-            var counter = Math.round(Math.random()*3);
-            setSkill(skills[counter]);
-        }, 3000)
-    }
+    const shuffle = useCallback(() => {
+        const index = Math.round(Math.random() * skillsName.length);
+        setNewSkill(skillsName[index]);
+    }, []);
 
-    setSkillName();
+    useEffect(() => {
+        const intervalid = setInterval(shuffle, 3000);
+        return () => clearInterval(intervalid);
+    }, [shuffle])
 
-    return (
-        <div className="d-flex justify-content-center mb-4">
-           <h4 id="i-am" className="display-5 i-am-animation text-light i-am-size">{skill}</h4>
-        </div>
-    )
+    return <div className="d-flex justify-content-center mb-4">
+        <h4 className="display-5 i-am-animation text-light i-am-size">I am a <span id="i-am" className="text-light">{skill}</span></h4>
+    </div>
 
 }
+
 
 export default SkillNaming;

@@ -5,7 +5,7 @@ import LinkedinIcon from './assets/link.svg';
 
 const Icons = () => {
     return (
-        <div id="icons-container" className="d-flex justify-content-center align-items-center fade-in-icons">
+        <div id="icons-container" className="d-flex justify-content-center align-items-center fade-in-icons pb-5">
 
             <div className="nav-item" style={{padding:'5px'}}>
                 <a className="text-decoration-none nav-link" href="">
