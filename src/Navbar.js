@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
 
-        <nav onLoad={()=>{setTimeout(()=>{setClass('')},2000)}} id="navigation-bar" style={{ paddingBottom: "0px !important" }} className={classname + " navbar navbar-expand-sm navbar-dark bg-dark"}>
+        <nav onLoad={() => { setTimeout(() => { setClass('') }, 2000) }} id="navigation-bar" style={{ paddingBottom: "0px !important" }} className={classname + " navbar navbar-expand-sm navbar-dark bg-dark"}>
             <div className="container-fluid px-5">
 
                 <div className="collapse navbar-collapse d-flex justify-content-around" id="navbar-hap">
@@ -19,25 +19,28 @@ const Navbar = () => {
                         {/* <!-- FIRST NAV ITEM --> */}
 
                         <li className="nav-item">
-                            <NavLink to='/react-portfolio'>       <button className="text-decoration-none nav-link point">
-                                <p className="hover-eff m-0 p-0 display-2">Home</p>
-                            </button></NavLink>
+                            <NavLink to='/'>
+                                <button className="text-decoration-none nav-link point">
+                                    <p className="hover-eff m-0 p-0 display-2">Home</p>
+                                </button></NavLink>
                         </li>
 
                         {/* <!-- SECOND NAV ITEM --> */}
 
                         <li className="nav-item">
-                            <NavLink to='/about'>     <button className="text-decoration-none nav-link point">
-                                <p className="hover-eff m-0 p-0 display-2">About</p>
-                            </button></NavLink>
+                            <NavLink to='/about'>
+                                <button className="text-decoration-none nav-link point">
+                                    <p className="hover-eff m-0 p-0 display-2">About</p>
+                                </button></NavLink>
                         </li>
 
                         {/* <!-- THIRD NAV ITEM --> */}
 
                         <li className="nav-item">
-                            <Link to='/projects'> <button className="text-decoration-none nav-link point">
-                                <p className="hover-eff m-0 p-0 display-2">Projects</p>
-                            </button></Link>
+                            <Link to='/projects'>
+                                <button className="text-decoration-none nav-link point">
+                                    <p className="hover-eff m-0 p-0 display-2">Projects</p>
+                                </button></Link>
                         </li>
 
                     </ul>

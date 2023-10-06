@@ -4,11 +4,12 @@ import Footer from "../Footer";
 import ExperienceMap from "../ExperienceMap";
 import Bio from '../Bio';
 import IconsSkills from "../IconsSkills";
+import Transition from "../Transition";
 
 const About = () => {
     return (
         <div id="main-container" className="container-fluid bg-dark p-5 pt-2">
-            <Navbar />
+            
 
             <Bio />
 
@@ -23,4 +24,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default Transition(About);
