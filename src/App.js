@@ -19,8 +19,8 @@ function App() {
 
         <Routes location={location} key={location.pathname}>
 
-          <Route index  element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route index path="#/" element={<Home />} />
+          <Route path="#/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
 
         </Routes>
