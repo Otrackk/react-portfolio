@@ -449,4 +449,19 @@ a {
     #card-container{
         padding: 20px !important;
     }
+
+    .section-container {
+        padding: 30px !important;
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .section-child {
+        margin: 20px;
+        height: 100% !important;
+    }
+    
+    .div-child {
+        height: 100% !important;
+    }
 }

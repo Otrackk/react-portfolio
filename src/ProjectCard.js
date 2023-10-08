@@ -1,6 +1,6 @@
 import React from "react";
 import SingleProject from "./SingleProject";
-import AElle from './assets/a-elle.png'
+
 
 const ProjectCard = () => {
 

@@ -18,7 +18,7 @@ const ExperienceMap = () => {
 
             </div>
 
-            <div className="d-sm-block d-md-none justify-content-center px-0 my-2 col-1">
+            <div className="d-flex d-md-none justify-content-center align-items-center px-0 my-2 col-lg-1">
                 <img src={ArrowDown}></img>
             </div>
 
@@ -36,7 +36,7 @@ const ExperienceMap = () => {
 
             </div>
 
-            <div className="d-sm-block d-md-none justify-content-center px-0 my-2 col-1">
+            <div className="d-flex d-md-none justify-content-center align-items-center px-0 my-2 col-lg-1">
                 <img src={ArrowDown}></img>
             </div>
 
@@ -54,7 +54,7 @@ const ExperienceMap = () => {
 
             </div>
 
-            <div className="d-sm-block d-md-none justify-content-center px-0 my-2 col-1">
+            <div className="d-flex d-md-none justify-content-center align-items-center px-0 my-2 col-lg-1">
                 <img src={ArrowDown}></img>
             </div>
 
