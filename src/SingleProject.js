@@ -13,7 +13,7 @@ const SingleProject = () => {
 
                 <div className="text-light section-child">
 
-                    <div className="div-child row g-0 border overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative radius-perso">
+                    <div className="div-child row g-0 border overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative radius-perso mt-2">
 
                         <div className="col-12 p-4 d-flex flex-column position-static">
                             <strong className="d-inline-block mb-2 text-light-emphasis">Games</strong>
@@ -21,15 +21,15 @@ const SingleProject = () => {
 
                             <div className="m-4 text-body-light d-flex flex-wrap justify-content-center">
 
-                                <span className="myskill1 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill1 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className="mx-1" width="24" height="24" src={HTML} alt=""></img>HTML5
                                 </span>
 
-                                <span className="myskill2 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill2 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={CSS} alt=""></img>CSS3
                                 </span>
 
-                                <span className="myskill3 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill3 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={JS} alt=""></img>JavaScript
                                 </span>
 
@@ -40,7 +40,7 @@ const SingleProject = () => {
                                 The whole project was programmed with just HTML, CSS & JavaScript Vanilla to test my skills without using any libraries.<br />
                             </p>
                             <a href="https://otrackk.github.io/dino-game/" target="_blank" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
-                                <button className="perso fw-semibold">
+                                <button className="perso mt-2 fw-semibold">
                                     Live Demo
                                 </button>
                             </a>
@@ -52,25 +52,25 @@ const SingleProject = () => {
 
                 <div className="text-light section-child">
 
-                    <div className="div-child row  g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative radius-perso">
+                    <div className="div-child row  g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative radius-perso mt-2">
                         <div className="col p-4 d-flex flex-column position-static">
                             <strong className="d-inline-block mb-2 text-light-emphasis">API</strong>
                             <h3 className="mb-0">&lt;Placeholder-Generator&gt;</h3>
                             <div className="m-4 text-body-light d-flex justify-content-center">
 
-                                <span className="myskill1 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill1 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className="mx-1" width="24" height="24" src={HTML} alt=""></img>HTML5
                                 </span>
 
-                                <span className="myskill2 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill2 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={CSS} alt=""></img>CSS3
                                 </span>
 
-                                <span className="myskill3 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill3 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={JQ} alt=""></img>JQuery
                                 </span>
 
-                                <span className="myskill3 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill3 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={Bootstrap} alt=""></img>Bootstrap
                                 </span>
 
@@ -80,7 +80,7 @@ const SingleProject = () => {
                                 This is one of the projects i want to keep updated, maybe it will turn into something else, who knows.
                             </p>
                             <a href="https://otrackk.github.io/placeholder-generator/" target="_blank" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
-                                <button className="perso fw-semibold">
+                                <button className="perso mt-2 fw-semibold">
                                     Live Demo
                                 </button>
                             </a>
@@ -90,26 +90,26 @@ const SingleProject = () => {
 
                 <div className="text-light section-child">
 
-                    <div className="div-child row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative radius-perso">
+                    <div className="div-child row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative radius-perso mt-2">
                         <div className="col p-4 d-flex flex-column position-static">
                             <strong className="d-inline-block mb-2 text-light-emphasis">Commission</strong>
                             <h3 className="mb-0">&lt;a-elle&gt;</h3>
 
                             <div className="m-4 text-body-light d-flex justify-content-center">
 
-                                <span className="myskill1 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill1 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className="mx-1" width="24" height="24" src={HTML} alt=""></img>HTML5
                                 </span>
 
-                                <span className="myskill2 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill2 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={CSS} alt=""></img>CSS3
                                 </span>
 
-                                <span className="myskill3 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill3 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={JS} alt=""></img>JavaScript
                                 </span>
 
-                                <span className="myskill3 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill3 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={Bootstrap} alt=""></img>Bootstrap
                                 </span>
 
@@ -118,7 +118,7 @@ const SingleProject = () => {
                                 <br /><br />
                                 I approached this projects with a very open mind, not being an expert of the sector my client worked in, so i started with a lot of research on competitors and then i moved to the coding. It was fun! </p>
                             <a href="https://otrackk.github.io/aelle-commission/" target="_blank" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
-                                <button className="perso fw-semibold">
+                                <button className="perso mt-2 fw-semibold">
                                     Live Demo
                                 </button>
                             </a>
@@ -132,7 +132,7 @@ const SingleProject = () => {
                 
                 <div className="text-light section-child">
 
-                    <div className="div-child row g-0 border overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative radius-perso">
+                    <div className="div-child row g-0 border overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative radius-perso mt-2">
 
                         <div className="col-12 p-4 d-flex flex-column position-static">
                             <strong className="d-inline-block mb-2 text-light-emphasis">Games</strong>
@@ -140,15 +140,15 @@ const SingleProject = () => {
 
                             <div className="m-4 text-body-light d-flex flex-wrap justify-content-center">
 
-                                <span className="myskill1 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill1 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className="mx-1" width="24" height="24" src={HTML} alt=""></img>HTML5
                                 </span>
 
-                                <span className="myskill2 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill2 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={CSS} alt=""></img>CSS3
                                 </span>
 
-                                <span className="myskill3 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill3 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={JS} alt=""></img>JavaScript
                                 </span>
 
@@ -159,7 +159,7 @@ const SingleProject = () => {
                                 The whole project was programmed with just HTML, CSS & JavaScript Vanilla to test my skills without using any libraries.<br />
                             </p>
                             <a href="https://otrackk.github.io/dino-game/" target="_blank" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
-                                <button className="perso fw-semibold">
+                                <button className="perso mt-2 fw-semibold">
                                     Live Demo
                                 </button>
                             </a>
@@ -171,25 +171,25 @@ const SingleProject = () => {
 
                 <div className="text-light section-child">
 
-                    <div className="div-child row  g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative radius-perso">
+                    <div className="div-child row  g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative radius-perso mt-2">
                         <div className="col p-4 d-flex flex-column position-static">
                             <strong className="d-inline-block mb-2 text-light-emphasis">API</strong>
                             <h3 className="mb-0">&lt;Placeholder-Generator&gt;</h3>
                             <div className="m-4 text-body-light d-flex flex-wrap justify-content-center">
 
-                                <span className="myskill1 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill1 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className="mx-1" width="24" height="24" src={HTML} alt=""></img>HTML5
                                 </span>
 
-                                <span className="myskill2 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill2 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={CSS} alt=""></img>CSS3
                                 </span>
 
-                                <span className="myskill3 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill3 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={JQ} alt=""></img>JQuery
                                 </span>
 
-                                <span className="myskill3 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill3 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={Bootstrap} alt=""></img>Bootstrap
                                 </span>
 
@@ -199,7 +199,7 @@ const SingleProject = () => {
                                 This is one of the projects i want to keep updated, maybe it will turn into something else, who knows.
                             </p>
                             <a href="https://otrackk.github.io/placeholder-generator/" target="_blank" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
-                                <button className="perso fw-semibold">
+                                <button className="perso mt-2 fw-semibold">
                                     Live Demo
                                 </button>
                             </a>
@@ -209,26 +209,26 @@ const SingleProject = () => {
 
                 <div className="text-light section-child">
 
-                    <div className="div-child row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative radius-perso">
+                    <div className="div-child row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative radius-perso mt-2">
                         <div className="col p-4 d-flex flex-column position-static">
                             <strong className="d-inline-block mb-2 text-light-emphasis">Commission</strong>
                             <h3 className="mb-0">&lt;a-elle&gt;</h3>
 
                             <div className="m-4 text-body-light d-flex flex-wrap justify-content-center">
 
-                                <span className="myskill1 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill1 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className="mx-1" width="24" height="24" src={HTML} alt=""></img>HTML5
                                 </span>
 
-                                <span className="myskill2 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill2 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={CSS} alt=""></img>CSS3
                                 </span>
 
-                                <span className="myskill3 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill3 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={JS} alt=""></img>JavaScript
                                 </span>
 
-                                <span className="myskill3 mx-2 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+                                <span className="myskill3 mx-2 badge my-1 d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                                     <img className=" mx-1" width="24" height="24" src={Bootstrap} alt=""></img>Bootstrap
                                 </span>
 
@@ -237,7 +237,7 @@ const SingleProject = () => {
                                 <br /><br />
                                 I approached this projects with a very open mind, not being an expert of the sector my client worked in, so i started with a lot of research on competitors and then i moved to the coding. It was fun! </p>
                             <a href="https://otrackk.github.io/aelle-commission/" target="_blank" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
-                                <button className="perso fw-semibold">
+                                <button className="perso mt-2 fw-semibold">
                                     Live Demo
                                 </button>
                             </a>
