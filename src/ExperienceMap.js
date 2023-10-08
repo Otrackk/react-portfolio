@@ -17,7 +17,7 @@ const ExperienceMap = () => {
 
             </div>
 
-            <div className="p-3 mx-2 col-1">
+            <div className="d-flex justify-content-center px-0 mx-1 col-1">
                 <img src={Arrow}></img>
             </div>
 
@@ -31,7 +31,7 @@ const ExperienceMap = () => {
 
             </div>
 
-            <div className="p-3 mx-2 col-1">
+            <div className="d-flex justify-content-center px-0 mx-1 col-1">
                 <img src={Arrow}></img>
             </div>
 
@@ -45,7 +45,7 @@ const ExperienceMap = () => {
 
             </div>
 
-            <div className="p-3 mx-2 col-1">
+            <div className="d-flex justify-content-center px-0 mx-1 col-1">
                 <img src={Arrow}></img>
             </div>
 

@@ -8,9 +8,8 @@ import Transition from "../Transition";
 
 const About = () => {
     return (
-        <div id="main-container" className="container-fluid bg-dark p-5 pt-2">
+        <div id="main-container" className="container-fluid bg-dark p-5 pt-0">
             
-
             <Bio />
 
             <IconsSkills />

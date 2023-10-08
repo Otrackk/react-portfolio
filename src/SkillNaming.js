@@ -3,10 +3,10 @@ import React, { useState, useCallback, useEffect } from "react";
 const skillsName = ["Front End Developer", "UI Designer", "Penetration Tester", "Chess Master😉"];
 
 const SkillNaming = ()=> {
-    const [skill, setNewSkill] = useState("");
+    const [skill, setNewSkill] = useState("Front End Developer");
 
     const shuffle = useCallback(() => {
-        const index = Math.round(Math.random() * skillsName.length);
+        const index = Math.round(Math.random() * 3);
         setNewSkill(skillsName[index]);
     }, []);
 

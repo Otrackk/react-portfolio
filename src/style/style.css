@@ -187,7 +187,7 @@ a {
 
 /* ===== PROJECTS PAGE ===== */
 
-.radius-perso{
+.radius-perso {
     border-radius: 0px 50px !important;
 }
 
@@ -304,6 +304,104 @@ a {
         position: relative;
     }
 }
+
+.myskill1 {
+    opacity: 0;
+    animation: skillsanimation 2s;
+    animation-fill-mode: forwards;
+}
+
+.myskill2 {
+    opacity: 0;
+    animation: skillsanimation 2s;
+    animation-delay: 0.10s;
+    animation-fill-mode: forwards;
+}
+
+.myskill3 {
+    opacity: 0;
+    animation: skillsanimation 2s;
+    animation-delay: 0.20s;
+    animation-fill-mode: forwards;
+}
+
+.myskill4 {
+    opacity: 0;
+    animation: skillsanimation 2s;
+    animation-delay: 0.30s;
+    animation-fill-mode: forwards;
+}
+
+.myskill5 {
+    opacity: 0;
+    animation: skillsanimation 2s;
+    animation-delay: 0.40s;
+    animation-fill-mode: forwards;
+}
+
+.myskill6 {
+    opacity: 0;
+    animation: skillsanimation 2s;
+    animation-delay: 0.50s;
+    animation-fill-mode: forwards;
+}
+
+.myskill7 {
+    opacity: 0;
+    animation: skillsanimation 2s;
+    animation-delay: 0.60s;
+    animation-fill-mode: forwards;
+}
+
+.myskill8 {
+    opacity: 0;
+    animation: skillsanimation 2s;
+    animation-delay: 0.70s;
+    animation-fill-mode: forwards;
+}
+
+.myskill9 {
+    opacity: 0;
+    animation: skillsanimation 2s;
+    animation-delay: 0.80s;
+    animation-fill-mode: forwards;
+}
+
+.myskill10 {
+    opacity: 0;
+    animation: skillsanimation 2s;
+    animation-delay: 0.90s;
+    animation-fill-mode: forwards;
+}
+
+.myskill11 {
+    opacity: 0;
+    animation: skillsanimation 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.myskill12 {
+    opacity: 0;
+    animation: skillsanimation 2s;
+    animation-delay: 1.10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes skillsanimation {
+    from {
+        position: relative;
+        right: 900px;
+        opacity: 0;
+    }
+
+    to {
+        position: relative;
+        right: 0px;
+        opacity: 1;
+    }
+}
+
 
 /* ----- FORCED QUERY ----- */
 

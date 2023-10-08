@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
 
-        <nav onLoad={() => { setTimeout(() => { setClass('') }, 2000) }} id="navigation-bar" style={{ paddingBottom: "0px !important" }} className={classname + " navbar navbar-expand-sm navbar-dark bg-dark"}>
+        <nav id="navigation-bar" style={{ paddingBottom: "0px !important" }} className=" navbar navbar-expand-sm navbar-dark bg-dark">
             <div className="container-fluid px-5">
 
                 <div className="collapse navbar-collapse d-flex justify-content-around" id="navbar-hap">
