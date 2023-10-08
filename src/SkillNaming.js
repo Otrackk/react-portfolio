@@ -16,7 +16,7 @@ const SkillNaming = ()=> {
     }, [shuffle])
 
     return <div className="d-flex justify-content-center mb-4">
-        <h4 className="display-5 i-am-animation text-light i-am-size">I am a <span id="i-am" className="text-light">{skill}</span></h4>
+        <h4 className="display-5 i-am-animation text-light i-am-size">I am a <span id="i-am" className="text-light display-5">{skill}</span></h4>
     </div>
 
 }

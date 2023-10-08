@@ -426,8 +426,12 @@ a {
 @media screen and (max-width:500px) {
 
     .code > p,span{
-        font-size: 10px !important;
+        font-size: 12px !important;
         margin: 0px;
+    }
+
+    #i-am{
+        font-size: calc(1.425rem + 2.1vw) !important;
     }
 
     .hover-eff {
