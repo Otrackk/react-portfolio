@@ -308,6 +308,7 @@ a {
 .myskill1 {
     opacity: 0;
     animation: skillsanimation 2s;
+    animation-delay: 0.01ms;
     animation-fill-mode: forwards;
 }
 
