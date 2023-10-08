@@ -424,10 +424,10 @@ a {
 }
 
 @media screen and (max-width:500px) {
-    #container-cards-mobile-tweak {
-        padding: 0 !important;
-        padding-right: 0 !important;
-        font-size: 11px;
+
+    .code > p,span{
+        font-size: 10px !important;
+        margin: 0px;
     }
 
     .hover-eff {
@@ -438,5 +438,6 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0px !important;
     }
 }
