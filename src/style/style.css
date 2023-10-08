@@ -425,7 +425,7 @@ a {
 
 @media screen and (max-width:500px) {
 
-    .code > p,span{
+    .code > p span{
         font-size: 12px !important;
         margin: 0px;
     }
