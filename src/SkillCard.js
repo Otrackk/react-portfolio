@@ -59,8 +59,8 @@ const SkillCard = () => {
                         <p><span className="color-0">var </span><span className="color-2">nodeJS =</span><span className="color-0"> true</span><span className="color-4">;</span></p>
                         <p><span className="color-0">var </span><span className="color-2">Jquery =</span><span className="color-0"> true</span><span className="color-4">;</span></p>
                         <p><span className="color-0">var </span><span className="color-2">bootstrap =</span><span className="color-0"> true</span><span className="color-4">;</span></p>
-                        <p><span className="color-0">var </span><span className="color-2">React =</span><span className="color-0"> true</span><span className="color-4">;</span></p>
-                        <p><span className="color-0">var </span><span className="color-2">Angular =</span><span className="color-0"> true</span><span className="color-4">;</span></p>
+                        <p><span className="color-0">var </span><span className="color-2">ReactJs =</span><span className="color-0"> true</span><span className="color-4">;</span></p>
+                        <p><span className="color-0">var </span><span className="color-2">VueJS =</span><span className="color-0"> true</span><span className="color-4">;</span></p>
                         <p><span className="color-0">var </span><span className="color-2">pineScript =</span><span className="color-0"> true</span><span className="color-4">;</span></p>
                     </code>
                 </div>

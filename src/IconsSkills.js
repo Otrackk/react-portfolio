@@ -8,8 +8,8 @@ import NODE from './assets/node.svg';
 import JQ from './assets/jquery.svg';
 import Bootstrap from './assets/bootstrap.svg';
 import REACT from './assets/react.svg';
-import Angular from './assets/angular.svg';
 import Pine from './assets/pine.svg';
+import Vue from './assets/vue.png';
 
 const IconsSkills = () => {
     return (
@@ -48,11 +48,11 @@ const IconsSkills = () => {
             </span>
 
             <span className="myskill9 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
-                <img className=" mx-1" width="24" height="24" src={REACT} alt=""></img>REACT
+                <img className=" mx-1" width="24" height="24" src={REACT} alt=""></img>REACT.JS
             </span>
 
             <span className="myskill10 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
-                <img className=" mx-1" width="24" height="24" src={Angular} alt=""></img>ANGULAR
+                <img className=" mx-1" width="24" height="24" src={Vue} alt=""></img>VUE.JS
             </span>
 
             <span className="myskill11 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
