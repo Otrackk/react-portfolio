@@ -51,7 +51,7 @@ html {
 #curriculum-pic {
     width: 250px;
     border-radius: 50%;
-    border: 10px solid white;
+    border: 2px solid white;
     object-fit: cover;
     object-position: top;
     height: 250px;
@@ -392,13 +392,13 @@ a {
 @keyframes skillsanimation {
     from {
         position: relative;
-        right: 900px;
+        top: 300px;
         opacity: 0;
     }
 
     to {
         position: relative;
-        right: 0px;
+        top: 0px;
         opacity: 1;
     }
 }

@@ -13,7 +13,7 @@ const SkillNaming = ()=> {
     useEffect(() => {
         const intervalid = setInterval(shuffle, 3000);
         return () => clearInterval(intervalid);
-    }, [shuffle])
+    }, [shuffle]);
 
     return <div className="d-flex justify-content-center mb-4">
         <h4 className="d-none d-md-block display-5 text-center i-am-animation text-light i-am-size">I am a&nbsp;</h4><span id="i-am" className="text-light text-center display-5">{skill}</span>

@@ -1,5 +1,4 @@
 import React from "react";
-import Demo from './assets/demo.png';
 import HTML from './assets/html.svg';
 import CSS from './assets/css.svg';
 import JS from './assets/js.svg';
@@ -39,7 +38,7 @@ const SingleProject = () => {
                                 <br /> <br />
                                 The whole project was programmed with just HTML, CSS & JavaScript Vanilla to test my skills without using any libraries.<br />
                             </p>
-                            <a href="https://otrackk.github.io/dino-game/" target="_blank" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
+                            <a href="https://matteomontenero.github.io/dino-game/" target="_blank" rel="noreferrer" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
                                 <button className="perso mt-2 fw-semibold">
                                     Live Demo
                                 </button>
@@ -79,7 +78,7 @@ const SingleProject = () => {
                                 <br /><br />
                                 This is one of the projects i want to keep updated, maybe it will turn into something else, who knows.
                             </p>
-                            <a href="https://otrackk.github.io/placeholder-generator/" target="_blank" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
+                            <a href="https://matteomontenero.github.io/placeholder-generator/index.html" target="_blank" rel="noreferrer" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
                                 <button className="perso mt-2 fw-semibold">
                                     Live Demo
                                 </button>
@@ -114,10 +113,10 @@ const SingleProject = () => {
                                 </span>
 
                             </div>
-                            <p className="mb-auto">This was actually my very first freelance commission, the client just asked me for a simple but intuitive website for his company.
+                            <p className="mb-auto">This was actually one of my firsts freelance commission, the client just asked me for a simple but intuitive website for his company.
                                 <br /><br />
                                 I approached this projects with a very open mind, not being an expert of the sector my client worked in, so i started with a lot of research on competitors and then i moved to the coding. It was fun! </p>
-                            <a href="https://otrackk.github.io/aelle-commission/" target="_blank" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
+                            <a href="https://otrackk.github.io/aelle-commission/" target="_blank" rel="noreferrer" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
                                 <button className="perso mt-2 fw-semibold">
                                     Live Demo
                                 </button>
@@ -158,7 +157,7 @@ const SingleProject = () => {
                                 <br /> <br />
                                 The whole project was programmed with just HTML, CSS & JavaScript Vanilla to test my skills without using any libraries.<br />
                             </p>
-                            <a href="https://otrackk.github.io/dino-game/" target="_blank" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
+                            <a href="https://otrackk.github.io/dino-game/" target="_blank" rel="noreferrer" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
                                 <button className="perso mt-2 fw-semibold">
                                     Live Demo
                                 </button>
@@ -198,7 +197,7 @@ const SingleProject = () => {
                                 <br /><br />
                                 This is one of the projects i want to keep updated, maybe it will turn into something else, who knows.
                             </p>
-                            <a href="https://otrackk.github.io/placeholder-generator/" target="_blank" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
+                            <a href="https://otrackk.github.io/placeholder-generator/" target="_blank" rel="noreferrer" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
                                 <button className="perso mt-2 fw-semibold">
                                     Live Demo
                                 </button>
@@ -236,7 +235,7 @@ const SingleProject = () => {
                             <p className="mb-auto">This was actually my very first freelance commission, the client just asked me for a simple but intuitive website for his company.
                                 <br /><br />
                                 I approached this projects with a very open mind, not being an expert of the sector my client worked in, so i started with a lot of research on competitors and then i moved to the coding. It was fun! </p>
-                            <a href="https://otrackk.github.io/aelle-commission/" target="_blank" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
+                            <a href="https://otrackk.github.io/aelle-commission/" target="_blank" rel="noreferrer" className="icon-link gap-1 icon-link-hover text-dark fw-semibold">
                                 <button className="perso mt-2 fw-semibold">
                                     Live Demo
                                 </button>

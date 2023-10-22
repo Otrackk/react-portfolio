@@ -26,6 +26,11 @@ const SkillCard = () => {
                         </p>
 
                         <p className="property">
+                            <span className="color-2">nationality</span><span>:</span>
+                            <span className="color-3">italian;</span>
+                        </p>
+
+                        <p className="property">
                             <span className="color-2">where-do-i-live</span><span>:</span>
                             <span className="">Rome,Italy</span>;
                         </p>
@@ -33,6 +38,12 @@ const SkillCard = () => {
                         <p className="property">
                             <span className="color-2">my-email</span><span>:</span>
                             <span className="color-3">matteomontenero15@gmail.com;</span>
+                        </p>
+
+                        
+                        <p className="property">
+                            <span className="color-2">lenguages</span><span>:</span>
+                            <span className="color-1">italian, english, spanish;</span>
                         </p>
 
                         <span>&#125;</span>
@@ -61,7 +72,6 @@ const SkillCard = () => {
                         <p><span className="color-0">var </span><span className="color-2">bootstrap =</span><span className="color-0"> true</span><span className="color-4">;</span></p>
                         <p><span className="color-0">var </span><span className="color-2">ReactJs =</span><span className="color-0"> true</span><span className="color-4">;</span></p>
                         <p><span className="color-0">var </span><span className="color-2">VueJS =</span><span className="color-0"> true</span><span className="color-4">;</span></p>
-                        <p><span className="color-0">var </span><span className="color-2">pineScript =</span><span className="color-0"> true</span><span className="color-4">;</span></p>
                     </code>
                 </div>
 
