@@ -10,7 +10,7 @@ const Bio = () => {
 
                 <br /> <br /> Right now I work as a Freelance Developer & Algorithms Programmer.
 
-                <br /> <br />  I specialize in manipulating the very fabric of the web, its raw materials of HTML, CSS, JavaScript and working with React & Vue frameworks.
+                <br /> <br /> I specialize in manipulating the very fabric of the web, its raw materials of HTML, CSS, JavaScript and working with React & Vue frameworks.
             </p>
         </div>
 
