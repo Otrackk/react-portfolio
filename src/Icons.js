@@ -8,13 +8,13 @@ const Icons = () => {
         <div id="icons-container" className="d-flex justify-content-center align-items-center fade-in-icons pb-2">
 
             <div className="nav-item" style={{padding:'5px'}}>
-                <a className="text-decoration-none nav-link" href="">
+                <a className="text-decoration-none nav-link" href="https://github.com/matteoMontenero">
                     <img src={GitIcon} alt="Github" style={{ width: "54px" }}></img>
                 </a>
             </div>
 
             <div className="nav-item">
-                <a className="text-decoration-none nav-link" href="">
+                <a className="text-decoration-none nav-link" href="https://www.linkedin.com/in/matteo-montenero/">
                     <img src={LinkedinIcon} alt="LinkedIn"></img>
                 </a>
             </div>
