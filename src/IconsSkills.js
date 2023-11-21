@@ -4,7 +4,6 @@ import CSS from './assets/css.svg';
 import JS from './assets/js.svg';
 import Sass from './assets/sass.svg';
 import TS from './assets/type.svg';
-import NODE from './assets/node.svg';
 import JQ from './assets/jquery.svg';
 import Bootstrap from './assets/bootstrap.svg';
 import REACT from './assets/react.svg';
@@ -33,10 +32,6 @@ const IconsSkills = () => {
 
             <span className="myskill5 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
                 <img className=" mx-1" width="24" height="24" src={TS} alt=""></img>TYPESCRIPT
-            </span>
-
-            <span className="myskill6 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
-                <img className=" mx-1" width="24" height="24" src={NODE} alt=""></img>NODEJS
             </span>
 
             <span className="myskill7 badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
